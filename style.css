@@ -1,0 +1,157 @@
+body {
+    background-color: #000000;
+    padding: 0 100px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    color: #d5b0b0;
+    margin: 0;
+
+}
+
+body:hover {
+    transition: 1s;
+    color: white;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    /* padding-top: 10px; */
+    margin: 40px 0 0 0;
+}
+
+img {
+    height: 300px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    width: 60%;
+}
+
+.player>h3 {
+    font-size: 2rem;
+}
+
+button {
+    position: absolute;
+    right: 100px;
+    top: 60%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    color: white;
+    background-color: #ff00003d;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff1c0080;
+    transition: 0.4s;
+}
+
+#butname2 {
+    top: 50%;
+}
+
+.footer {
+    width: 90%;
+    margin: 10px auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* // animation effects */
+
+/* responsive design */
+@media (max-width:1324px) {
+    .row {
+        width: 100%;
+    }
+
+    .player {
+        margin-bottom: 100px;
+    }
+
+    button {
+        position: absolute;
+        left: 55%;
+        top: 85%;
+        padding: 5px 0;
+        font-size: 1rem;
+        width: 20%;
+    }
+
+    #butname2 {
+        top: 84%;
+        left: 25%;
+        font-size: 1.5rem;
+    }
+
+    img {
+        height: 250px;
+    }
+}
+
+@media (max-width:950px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .player {
+        margin-bottom: 10px;
+    }
+
+    img {
+        height: 200px;
+    }
+}
+
+@media (max-width:650px) {
+    body {
+        padding: 0 50px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    button {
+        top: 70%;
+    }
+
+    #butname2 {
+        top: 71%;
+    }
+
+    .player>h3 {
+        font-size: 1.4rem;
+    }
+
+    img {
+        height: 150px;
+    }
+}
+
+@media (max-width:440px) {
+    body {
+        padding: 0;
+    }
+
+    button {
+        top: 65%;
+    }
+
+    #butname2 {
+        top: 66%;
+    }
+
+}

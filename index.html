@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicc Game</title>
+
+    <!-- google Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=Merienda:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onmouseout="mouseout()">
+    <section>
+        <h1>Wanna Play !!</h1>
+        <p style="padding: 5px;">Click On Play Button</p>
+        <div class="row">
+            <div class="player">
+                <h3 class="pl1">PLAYER 1</h3>
+                <img src="images/dice1.png" alt="" class="dicc1">
+            </div>
+            <div class="player">
+                <h3 class="pl2">PLAYER 2</h3>
+                <img src="images/dice1.png" alt="" class="dicc2">
+            </div>
+        </div>
+
+        <button onclick="changename()" id="butname1">Change Names</button>
+        <button onclick="play()" id="butname2">Play</button>
+    </section>
+
+    <p class="footer">@copyright Rajesh Adeli</p>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
